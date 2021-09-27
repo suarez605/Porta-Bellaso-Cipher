@@ -4,6 +4,9 @@
 This is a little and fast coded Porta Bellaso Cipher/Decipher coded in Python 3.9
 Use it or extend it as you want to learn new things :D
 
+If you want to reach me:
+    - https://www.linkedin.com/in/aesuarezlozano/
+
 ## Getting Started <a name = "getting_started"></a>
 
 If you want more information about the algorithm used in this project, just visit this:
