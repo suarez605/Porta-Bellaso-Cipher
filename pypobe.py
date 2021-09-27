@@ -3,7 +3,7 @@
     - https://github.com/suarez605
     - https://www.linkedin.com/in/aesuarezlozano/
     
-    Tip: Using as a script put TEXT and KEY inside quotation marks  
+    Tip: Using as a script put TEXT and KEY inside quotation marks, also be sure that the key only contain letters.
 
     Usage:
     pypobe.py <TEXT> <KEY>
@@ -49,7 +49,6 @@ def interactive():
 if __name__ == "__main__":
     arguments = docopt(doc=__doc__)
     if arguments["-i"] or arguments["--interactive"]:
-        print("Interactive mode is under construction, coming soon.")
         interactive()
         
     print(porta_bellaso(key=arguments["<KEY>"], dictionary=get_dictionaries(), text=arguments["<TEXT>"]))
