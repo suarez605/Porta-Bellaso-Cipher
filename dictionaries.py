@@ -95,9 +95,3 @@ class WX (base_dictionary):
 class YZ (base_dictionary):
     MOVEMENT = -12
     NAME = "YZ"
-
-
-if __name__ == "__main__":
-    a = get_dictionaries()
-
-    print(a)
