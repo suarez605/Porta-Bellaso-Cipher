@@ -1,17 +1,18 @@
 """ Python program to user Porta/Bellaso cipher.
-    © Alvaro Suarez Lozano 2021
+    Alvaro Suarez Lozano 2021
     - https://github.com/suarez605
     - https://www.linkedin.com/in/aesuarezlozano/
     
+    Tip: Using as a script put TEXT and KEY inside quotation marks  
+
     Usage:
     pypobe.py <TEXT> <KEY>
     pypobe.py -i | --interactive
     pypobe.py -h | --help
-
    
 
 """
-from typing import AsyncContextManager
+import sys
 from docopt import docopt
 from dictionaries import get_dictionaries
 
@@ -39,7 +40,7 @@ def porta_bellaso(key: str, dictionary: dict, text: str) -> str:
 
 
 def interactive():
-    print("""pypobe Interactive mode © Alvaro Suarez Lozano 2021 Use Ctrl+C to exit.""")
+    print("""pypobe Interactive mode | By Alvaro Suarez Lozano 2021 | Use Ctrl+C to exit.""")
     key = input("Please introduce the key to use during this session:\n")
     while True:
         text = input(f"Write the text to cipher/decipher with the key -{key}-\n")
