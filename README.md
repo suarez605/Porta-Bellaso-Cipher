@@ -1,11 +1,4 @@
 # Pypobe - Porta-Bellaso Cipher/Decipher implemented in Python 3.9
-
-## Table of Contents
-
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Usage](#usage)
-
 ## About <a name = "about"></a>
 
 This is a little and fast coded Porta Bellaso Cipher/Decipher coded in Python 3.9
